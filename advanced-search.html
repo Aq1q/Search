@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="advanced-style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="index.html">Google Search</a>
+        </div>
+        <div class="heading">
+            <label id="head-label">Advanced Search</label>
+        </div>
+    </header>
+    <div class="break"></div>
+    <div class="form">
+        <form action="https://www.google.com/search" method="GET" name="f">
+            <div class="form-heading">
+                <div class="size">
+                    <div class="form-label">
+                        <span>Find sites including...</span>
+                    </div>
+                </div>
+                <div class="input-size">&nbsp;</div>
+                <div class="size">
+                    <div class="label-text">Do it using search field.</div>
+                </div>
+            </div>
+            <div class="form-inputs">
+                <div class="input-box">
+                    <div class="size">
+                        <label for="all">All these words:</label>
+                    </div>
+                    <div class="input-size">
+                        <div class="inner-size">
+                            <input type="text" name="as_q" id="all" class="input-text">
+                        </div>
+                    </div>
+                    <div class="usage">
+                        <div class="size">
+                            <div class="input-how">
+                                Wpisz szukane słowa: <span class="alter">trójkolorowy rat terrier</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="size">
+                        <label for="exact">This exact word or phrase:</label>
+                    </div>
+                    <div class="input-size">
+                        <div class="inner-size">
+                            <input type="text" name="as_epq" id="exact" class="input-text">
+                        </div>
+                    </div>
+                    <div class="usage">
+                        <div class="size">
+                            <div class="input-how">
+                                Wpisz wyrażenie w cudzysłowach: <span class="alter">"chart polski"</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="size">
+                        <label for="any">Any of these words:</label>
+                    </div>
+                    <div class="input-size">
+                        <div class="inner-size">
+                            <input type="text" name="as_oq" id="any" class="input-text">
+                        </div>
+                    </div>
+                    <div class="usage">
+                        <div class="size">
+                            <div class="input-how">
+                                Wstaw <span class="alter">OR</span> między wpisane słowa: <span class="alter">miniaturowy OR zwykły</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="size">
+                        <label for="none">None of these words:</label>
+                    </div>
+                    <div class="input-size">
+                        <div class="inner-size">
+                            <input type="text" name="as_eq" id="none" class="input-text">
+                        </div>
+                    </div>
+                    <div class="usage">
+                        <div class="size">
+                            <div class="input-how">
+                                Umieść znak minus przed niepożądanymi słowami: <span class="alter">-gryzonie, -"terier"</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="size sub-button">
+                        <label for="none"></label>
+                    </div>
+                    <div class="input-size">
+                        <div class="button-size">
+                            <input type="submit" class="button" value="Advanced Search">
+                        </div>
+                    </div>
+                    <div class="usage sub-button">
+                        <div class="size">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
